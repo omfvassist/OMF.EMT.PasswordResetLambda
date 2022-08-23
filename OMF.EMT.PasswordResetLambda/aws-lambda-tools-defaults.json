@@ -1,0 +1,25 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "237577930947_AWSAdministratorAccess",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "dotnetcore3.1",
+    "function-memory-size" : 512,
+    "function-timeout"     : 15,
+    "function-handler"     : "OMF.EMT.PasswordResetLambda::OMF.EMT.PasswordResetLambda.Function::FunctionHandler",
+    "function-name"        : "PasswordResetLambda",
+    "function-description" : "Lambda for PasswordResetBot",
+    "package-type"         : "Zip",
+    "function-architecture" : "x86_64",
+    "tracing-mode"          : "PassThrough",
+    "environment-variables" : "\"SiteId\"=\"268767a0-2f94-43c9-a3ec-52eec43b915b\";\"OktaAuthToken\"=\"SSWS 00jSh0a_668KG-_9v_HYiIVKEtiDUsuRC7TrJ2DLnH\";\"AgentQueueId\"=\"be855f91-cd34-4650-8e6d-403688b1894a\";\"Debug_OverrideTime\"=\"10:00 pm\";\"OktaBaseUri\"=\"https://onemainfinancial-admin.oktapreview.com/api/v1/\";\"TeamId\"=\"63e5e3fc-3b43-462f-bba4-8fd3c708c6ca\"",
+    "image-tag"             : "",
+    "function-role"         : "arn:aws:iam::237577930947:role/service-role/PasswordResetLambda-role-k6qiv5sh"
+}
